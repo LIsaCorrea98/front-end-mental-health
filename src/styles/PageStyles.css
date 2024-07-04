@@ -1,0 +1,80 @@
+/* Página de estilos para Home */
+.bg-image {
+  background-image: url('../assets/backround_image.jpg'); /* Asegúrate de tener la imagen en la carpeta assets */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.info-box {
+  background-color: rgba(149, 184, 246, 0.9); /* Color de fondo similar a la barra de navegación */
+  color: #ffffff;
+}
+
+.info-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-white {
+  color: #d3d3d3; /* Blanco grisáceo para el texto */
+}
+
+/* Estilos para la barra de navegación */
+.navbar-custom {
+  background-color: rgba(149, 184, 246, 0.9); /* Color de fondo similar al rectángulo de información */
+  color: #ffffff; /* Texto blanco para contraste */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 24px; /* Tamaño de fuente para el nombre de la app */
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff; /* Texto blanco para los enlaces */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffffff; /* Cambio de color al pasar el ratón */
+}
+
+.navbar-custom .nav-link.active {
+  font-weight: bold; /* Texto en negrita para el enlace activo */
+}
+
+/* Estilos para la página Rutines */
+.rutines-week {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+/* Estilos para la página Rutines */
+.rutines-box, .labels-box {
+  background-color: rgba(149, 184, 246, 0.9); /* Color de fondo similar al rectángulo de información */
+  color: #ffffff; /* Texto blanco para contraste */
+  padding: 20px; /* Añade un padding interno para separar contenido */
+  border-radius: 10px; /* Bordes redondeados */
+  height: 60vh; /* Altura del 60% de la página */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinea el contenido al principio */
+  align-items: flex-start; /* Alinea el contenido a la izquierda */
+  margin-left: 20px; /* Margen izquierdo para el rutines-box */
+}
+
+.rutines-box {
+  width: calc(100% - 25% - 40px); /* Ancho del 75% de la página menos los márgenes */
+}
+
+.labels-box {
+  width: 25%; /* Ancho del 25% de la página */
+  margin-left: 20px; /* Margen izquierdo para separar del rutines-box */
+}
+
+.rutines-box h2, .labels-box h2 {
+  font-size: 24px; /* Tamaño de fuente para el título */
+  margin-bottom: 10px; /* Espacio inferior al título */
+  align-self: flex-start; /* Alinea el título al inicio del contenedor */
+}
